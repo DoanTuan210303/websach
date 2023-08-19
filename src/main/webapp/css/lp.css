@@ -1,0 +1,239 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e86939;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a:active,
+a:focus,
+button,
+input:focus {
+  outline: 0 !important;
+  border: none;
+}
+img {
+  display: block;
+}
+.signup {
+  min-width: 900px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup__main {
+  min-width: 800px;
+  height: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.267);
+  position: relative;
+}
+.signup__main--menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.signup__main--menu img {
+  margin-left: 0;
+}
+.signup__main--menu a {
+  text-decoration: none;
+  color: #c2c9d4;
+  font-weight: bold;
+}
+.signup__main--menu .menu--bar {
+  align-items: center;
+  display: flex;
+  margin-right: 0;
+}
+.signup__main--menu .menu--bar button {
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 2px solid #c2c9d4;
+  border-radius: 3px;
+  font-weight: inherit;
+}
+.signup__main--menu .menu--bar button:hover {
+  background-color: #f5a623;
+  color: #fff;
+  border: 2px solid #f5a623;
+}
+.signup__main--menu .menu--bar button:hover a {
+  color: #fff;
+}
+.signup__main--menu .menu--bar li {
+  font-size: smaller;
+  padding: 0 1rem;
+  list-style: none;
+}
+.signup__main--content {
+  margin-top: 50px;
+}
+.signup__main--content .content--header {
+  text-align: center;
+  padding: 25px 40px;
+  margin-top: -50px;
+  line-height: 30px;
+}
+.signup__main--content .content--header h1 {
+  color: #4a90e2;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.signup__main--content .content--header span {
+  font-size: smaller;
+  color: black;
+  font-weight: bolder;
+}
+.signup__main--content .content--find {
+  text-align: center;
+}
+.signup__main--content .content--find span {
+  font-weight: bolder;
+}
+.signup__main--content .content--find .find__container {
+  margin-top: 10px;
+  width: 60%;
+  height: 55px;
+  display: flex;
+  border: 3px solid #c2c9d4;
+  border-radius: 3px;
+  position: relative;
+}
+.signup__main--content .content--find .find__container label {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  z-index: 999;
+  cursor: pointer;
+}
+.signup__main--content .content--find .find__container input {
+  border: none;
+  width: 57%;
+  font-size: larger;
+}
+.signup__main--content .content--find .find__container #t:focus {
+  outline: none;
+}
+.signup__main--content .content--find .find__container button {
+  cursor: pointer;
+  width: 40%;
+  margin: 2px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.signup__main--content .content--find .find__container button:hover {
+  background-color: #1d61ae;
+}
+.signup__main .bp {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateX(-100%);
+}
+.content--form {
+  width: 100%;
+  height: 100px;
+}
+.content--form label {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  width: 13%;
+}
+.content--form input {
+  width: 65%;
+  padding: 5px;
+  border: 1px solid black;
+  margin-left: 0;
+}
+.content--form .form__email,
+.content--form .form__password,
+.content--form .form__fullname,
+.content--form .form__phone,
+.content--form .form__c-pass,
+.content--form .form__username {
+  padding: 10px 0;
+  display: flex;
+}
+.content--form .form__check {
+  padding: 10px 0;
+}
+.content--form .form__check label {
+  width: 98%;
+  display: inline;
+}
+.content--form .form__check input {
+  width: 10%;
+  display: inline-block;
+  margin-left: 23.7%;
+  height: 14px;
+  margin-right: -10px;
+  cursor: pointer;
+}
+.form__button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6%;
+  width: 25%;
+}
+.form__button-2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: -4px;
+  width: 25%;
+}
+.content--form .form__button a {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 400;
+  font-weight: 500;
+  padding: 10px;
+}
+.content--form .form__button-2 a {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 400;
+  font-weight: 500;
+  padding: 10px;
+}
+/* .content--form .form__button button:hover, */
+.content--form .form__button-2 button:hover a {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+}
+.content--form .form__button button:hover a {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+}
+.content--form .form__button button:focus {
+  color: #fff;
+}
+.content--form .form__button button {
+  transition: all 0.2s ease;
+  background-color: unset;
+}
+.content--form .form__button-2 button {
+  transition: all 0.2s ease;
+  background-color: unset;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+/*# sourceMappingURL=lp.css.map */
